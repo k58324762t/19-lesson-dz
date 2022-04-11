@@ -9,6 +9,7 @@ function get() {
   xhr.onload.array.forEach(Array=> {
   console.log(xhr.response);
 });
+  xhr.send()
 }
 
 buttonGetInform.addEventListener('click',(e)=>{
